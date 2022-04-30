@@ -1,0 +1,117 @@
+body {
+    margin: 0%;
+    font-size: 1.1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#project {
+    display: hidden;
+}
+
+nav {
+
+    background-color: rgb(6, 168, 114);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    width: 170px !important;
+    height: 100%;
+    margin-left: -250px;
+    border-right: 2px solid #616060;
+
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: end;
+    color: #000000;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: solid;
+    color: rgb(6, 168, 114);
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 25px;
+    margin-left: 180px;
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.info {
+
+    display: flex;
+    color: #616060;
+
+}
+
+#infoo {
+
+    display: flex;
+    color: #616060;
+
+}
+
+.bar {
+    margin-left: 200px;
+    margin-top: 20px;
+
+    font-size: 20px;
+
+
+}
+
+.barr li {
+    margin-left: 7% !important;
+    text-decoration: none;
+    color: #616060;
+}
+
+
+.barr li:hover {
+    color: rgb(6, 168, 114);
+    font-weight: bold;
+    border-bottom: 3px rgb(6, 168, 114) Solid;
+}
